@@ -2,7 +2,7 @@ package week1;
 
 import java.util.Scanner;
 
-public class Positive {
+public class Ex14 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please test a number: ");
