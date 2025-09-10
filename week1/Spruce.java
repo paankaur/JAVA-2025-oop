@@ -1,5 +1,7 @@
 package week1;
 
 public class Spruce {
-    public static String main(String[] args) {}
+    public static void main(String[] args) {
+        System.out.println("ohy");
+    }
 }
