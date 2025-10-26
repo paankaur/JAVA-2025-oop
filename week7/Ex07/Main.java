@@ -43,10 +43,23 @@ public class Main {
 
      //   Exercise 7.5: Adding and Translating Words
 
-        Scanner reader = new Scanner(System.in);
-        Dictionary dict = new Dictionary();
+//        Scanner reader = new Scanner(System.in);
+//        Dictionary dict = new Dictionary();
+//
+//        TextUserInterface ui = new TextUserInterface(reader, dict);
+//        ui.start();
 
-        TextUserInterface ui = new TextUserInterface(reader, dict);
+        //test
+        String input = "translate\n" + "monkey\n"  +
+                "translate\n" + "cheese\n" +
+                "add\n"  + "cheese\n" + "juusto\n" +
+                "translate\n" + "cheese\n" +
+                "quit\n";
+
+        Scanner reader = new Scanner(input);
+        Dictionary dictionary2 = new Dictionary();
+
+        TextUserInterface ui = new TextUserInterface(reader, dictionary2);
         ui.start();
     }
 }
